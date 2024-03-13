@@ -1,0 +1,49 @@
+.Accessories-container {
+    padding: 20px;
+    background:linear-gradient(rgb(219, 109, 191),rgb(135, 216, 147),rgb(231, 198, 136));
+  }
+  
+  .Accessories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Accessories {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #dcd2d2;   background:linear-gradient(blueviolet,orange,rgb(219, 219, 100));
+  }
+  
+  .Accessories img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .Accessories h3 {
+    margin-top: 10px;
+  }
+  
+  .Accessories p {
+    color: #000000;
+  }
+  
+  .Accessories button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5191d5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Accessories button:hover {
+    background-color: #0056b3;
+  }
+  
